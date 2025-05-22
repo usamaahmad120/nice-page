@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+  max-width: 100%;
+  
+}
+
+.navbar {
+  height: 90px;
+  background-color: white !important;
+}
+
+/* Toggler Icon - white color */
+.custom-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Navbar Links for Desktop */
+@media (min-width: 992px) {
+  .navbar .desktop-nav-link {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black !important;
+  }
+
+  .navbar .desktop-nav-link:hover {
+    color: #F1A40E !important;
+  }
+}
+
+/* Offcanvas menu styles */
+.offcanvas-start {
+  background-color: black;
+}
+
+.offcanvas-body .nav-link {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white !important;
+  margin-bottom: 10px;
+}
+
+.offcanvas-body .nav-link:hover {
+  color: #F1A40E !important;
+}
+
+.navbar ul {
+  padding: 0px 150px;
+  gap: 35px;
+}
+
+/* Landing Page Section */
+.home-section {
+  background-image: url(../images/positive-business-woman-posing-camera-outdoors.jpg); /* Replace with your own image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.overlay {
+  margin-bottom: 100px;
+}
+.overlay h1{ 
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.overlay p{
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.btn-custom {
+  background-color: #F1A40E;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  
+}
+@media (max-width: 767.98px) {
+  .landing-section {
+    text-align: center;
+    padding: 30px 0;
+  }
+}
+
+/* second section  */
+.card-body{
+  height: 400px;
+}
+.card {
+  height: 450px;
+}
+
+.colum1{
+  margin-top: 30px;
+}
+.colum1 h4 {
+  font-size: 30px;
+  font-weight: 800;
+  
+}
+ul li {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+
+
+/* home page */
+
+.background-container {
+  background-image: url('/images/positive-business-woman-posing-camera-outdoors.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+
+/* .background-container {
+  background-image: url('/images/positive-business-woman-posing-camera-outdoors.jpg'); 🔁 Change to your real image path */
+  /* background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.card-custom {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  border-radius: 1rem;
+} */
+
+
+
+
+
+
+
+
+
+           
+
+
+           

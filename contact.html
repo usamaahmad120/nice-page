@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>contact page</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- icon -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css/contact.css">
+</head>
+<body>
+
+
+  
+<!-- Fixed Header Before Navbar -->
+<header class="w-100 bg-white position-fixed top-0 start-0 z-3" style="height: 60px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  <div class="container-fluid h-100 d-flex justify-content-between align-items-center" style="background-color: #F2F2F2;">
+    <!-- Logo -->
+    <div>
+      <img src="images/logo-w.png" alt="Logo" class="img-fluid" style="width: 100%; height: 100%;">
+    </div>
+
+    <!-- Center Images -->
+    <div class="d-flex gap-3">
+      <img src="images/responsive-desktop.png" alt="Image 1" style="width:100%; height: 100%;">
+      <img src="images/responsive-laptop.png" alt="Image 2" style="width: 100%; height: 100%;">
+      <img src="images/responsive-tablet.png" alt="Image 3" style="width:100%; height: 100%;">
+      <img src="images/responsive-phone-horizontal.png" alt="Image 4" style="width: 100%; height: 100%;">
+      <img src="images/responsive-phone.png" alt="Image 4" style="width: 100%; height: 100%;">
+    </div>
+
+    <!-- End Image -->
+    <div>
+      <img src="images/icon-close.png" alt="End Image" style="width: 100%; height: 100%;">
+    </div>
+  </div>
+</header>
+
+<!-- Navbar Starts Here (after header) -->
+<nav class="navbar navbar-expand-lg mt-5 pt-5">
+  <div class="container-fluid d-flex justify-content-start">
+    <!-- Toggle button on the LEFT side -->
+    <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+      <span class="navbar-toggler-icon custom-toggler-icon"></span>
+    </button>
+
+    <!-- Desktop Navbar Links -->
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link desktop-nav-link" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link desktop-nav-link" href="landingpage.html">Landing</a></li>
+        <li class="nav-item"><a class="nav-link desktop-nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link desktop-nav-link" href="team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link desktop-nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Offcanvas Menu -->
+    <div class="offcanvas offcanvas-start bg-black text-white" tabindex="-1" id="offcanvasNavbar">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-white" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="landingpage.html">Landing</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="team.html">Team</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+  <!-- Page Content -->
+  <section style="background-image: url('images/business-finance-female-successful-entrepreneur-concept-professional-real-estate-broker-ready-show-clients-houses-put-glasses-smiling-pleased-asia.jpg'); background-size: cover; background-position: center; padding: 80px 0;">
+    <div class="container">
+      <div class="row justify-content-end">
+        
+        <div class="col-md-6">
+          <form id="contactForm">
+            <div class="bg-white p-5 rounded shadow">
+              <!-- Email -->
+              <div class="d-flex align-items-center mb-4">
+                <label for="email" class="me-3" style="width: 70px;">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter a valid email address">
+                <span id="addresserror" class="error"></span>
+              </div>
+              
+              <!-- Address -->
+              <div class="d-flex align-items-center mb-4">
+                <label for="address" class="me-3" style="width: 70px;">Address</label>
+                <input type="text" id="address" class="form-control" placeholder="Enter your address">
+                <span id="addresserror" class="error"></span>
+              </div>
+              
+              <!-- Message -->
+              <div class="d-flex align-items-start mb-4">
+                <label for="message" class="me-3" style="width: 70px;">Message</label>
+                <textarea id="message" rows="5" class="form-control" placeholder="Enter your message"></textarea>
+                <span id="addresserror" class="error"></span>
+              </div>
+    
+              <!-- Submit Button -->
+              <button class="btn btn-success w-100 fw-bold py-2">SUBMIT</button>
+    
+              <!-- Image Credit -->
+              <p class="mt-4 mb-0 text-start" style="font-size: 14px;">Image from <span style="color: orange;">Freepik</span></p>
+            </div>
+          </form>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+    <!-- 2 section  -->
+    <section style="height: 65vh; background-color:#43C374; display: flex; justify-content: center;align-items: center;">
+      <div class="text-center text-white px-3">
+        <h5 style="font-family: 'Montserrat', sans-serif; font-weight: 900; margin-bottom: 16px;">Add more speed to your website</h5>
+        <h2 class="fw-bold mb-4" style="font-family: 'Montserrat', sans-serif;">Your success in the industry is our mission</h2>
+        <p class="mb-4" style="font-family: 'Open Sans', sans-serif;">
+          Article evident arrived express highest men did boy.Mistress sensible entirely am so. Quick can <br>manor smart money hopes worth too. Comfort produce husband boy her had hearing. Law <br>others theirs passed but wishes. You day real less till dear read.
+        </p>
+        <button class="btn btn-light py-3" style="font-weight: bold; color: #F2F2F2; text-transform: uppercase; background-color: #F1A40E; border: none; padding: 40px;">Read More</button>
+        
+      </div>
+    </section>
+
+ 
+      <!-- 3 section -->
+       
+      <section class="d-flex justify-content-center align-items-center" style="height: auto; background-color: #f8f9fa;">
+        <div class="text-center mt-5">
+          <!-- Profile-style Image -->
+          <img src="images/08a3461f-6e0c-4b94-8524-b2fc1f0ce15b111111.jpg" alt="Profile" class="rounded-circle mb-4" style="width: 300px; height: 300px; object-fit: cover;">
+      
+          <!-- Social Media Icons -->
+          <div class="mb-4">
+            <a href="#" class="mx-2">
+              <img src="images/facebook.svg" alt="Facebook" style="width: 55px; height: 55px;">
+            </a>
+            <a href="#" class="mx-2">
+              <img src="images/instagram.svg" alt="Instagram" style="width: 55px; height: 55px;">
+            </a>
+            <a href="#" class="mx-2">
+              <img src="images/youtube.svg" alt="YouTube" style="width: 55px; height: 55px;">
+            </a>
+          </div>
+      
+          <!-- Heading -->
+          <h5 class="fw-bold mt-2 mb-4" style="font-family: 'Montserrat', sans-serif; font-size: 30px;">Preparing For Your Success,<br>
+            We Provide Truly Prominent IT Solutions.</h5>
+      
+          <!-- Short Paragraph -->
+          <p style="font-family: 'Open Sans', sans-serif; color: black;">
+            Podcasting operational change management inside of workflows to establish a <br> framework. Taking seamless key performance indicators offline to maximise the long <br>tail. Keeping your eye on the ball while performing a deep dive on the start-up <br> mentality to derive convergence on cross-platform integration.
+          </p>
+      
+          <!-- Button -->
+          <button class="btn btn-warning mt-3 mb-5 px-5 py-3">Contact Me</button>
+        </div>
+      </section>
+      
+
+
+     <!--  4 section  -->
+     <section style="background: url('images/female-work-brainstorming.jpg') no-repeat center center/cover; height: 100vh;">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="card p-4 d-flex align-items-center text-center" style="max-width: 740px; width: 100%; background-color: white;  box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+          
+          <!-- Button -->
+          <button class="btn  px-5 py-3 fw-bold mb-3 mt-3" style="color:#F2F2F2; background-color: #F1A40E; border-radius: 0%;"> Contact Us</button>
+    
+          <!-- Heading -->
+          <h1 class="mb-3 mt-2" style="font-family: 'Montserrat', sans-serif; font-size: 40px; font-weight: 900;">Together for a business lifestyle</h1>
+    
+          <!-- Paragraph -->
+          <p class="mb-4" style="font-family: 'Open Sans', sans-serif; color: black; font-size: 17px;">
+            We are here to meet any business need and to promote your company online!
+          </p>
+    
+          <!-- Contact Info -->
+          <div class="mb-4" style="font-family: 'Open Sans', sans-serif; color: black; font-size: 22px; font-weight: 900;">
+            <p class="mb-1">Phone: 1 (232) 252 55 22</p>
+            <p class="mb-1">Location: 75 Street Sample, WI 63025</p>
+            <p class="mb-0">Mail: template@sample.com</p>
+          </div>
+          
+    
+          <!-- Last short paragraph -->
+          <p style="font-family: 'Open Sans', sans-serif; color: black;">
+            image <span style="color:#28a745;">Freepik</span>
+          </p>
+    
+        </div>
+      </div>
+    </section>
+    
+
+
+    <!-- Footer -->
+    <footer class=" text-white" style="background-color: #333333;">
+      <div class="container d-flex justify-content-center align-items-center flex-column text-center" style="height: 220px;">
+        <!-- First Div -->
+        <div class="mb-5">
+          <p style="font-size: 16px; font-weight: 900; font-family: 'montserrat', sans-serif;">© 2025 Your Website Name. All Rights Reserved.</p>
+        </div>
+    
+        <!-- Second Div -->
+        <div>
+          <p style="font-size: 16px; font-weight: 900; font-family: 'montserrat', sans-serif;">Designed  by USAMA ❤️ </p>
+        </div>
+      </div>
+    </footer>
+  
+  
+  
+
+
+    <!-- js -->
+     <script src="js/contact.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
